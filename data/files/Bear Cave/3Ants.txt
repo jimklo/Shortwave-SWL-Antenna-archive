@@ -1,0 +1,138 @@
+A Comparison of Three Indoor Antenna Types.
+
+The scenario: 
+
+A ground floor apartment. Absolutely no outside antennas permitted. A desire to listen to Shortwave Broadcasts over a range from 3 to 20 mHz including Hams and Utes. A desire for better performance than provided by the typical SW radio's rod antenna.
+
+The question:
+
+Which will work better... a horizontal doublet (aka dipole), a short vertical doublet or a loop antenna? Remember that this is inside a ground floor apartment. The maximum height will be the average ceiling height of 8 feet. It's unlikely that a good ground connection can be obtained so the antenna will need to be ground independent. The antenna should provide good all-angle sensitivity in its vertical pickup pattern.
+
+The evaluation tool:
+
+EZNEC 3.0 antenna modeling software. A free demo version is available on the Internet. Very intuitive to use, includes a tutorial and exceptionally accurate predictions of the real antenna's performance.
+
+The comparison method:
+
+Three frequencies are used... 5, 10 and 15 mHz to gather information about the antennas expected performance over a wide bandwidth range. Values for antenna "gain" are expressed in dBi which represents the gain (or loss) of the antenna as compared to an isotropic radiator in free space. The isotropic radiator is a dimensionless point in space which has a gain/loss of exactly 0 decibels in all directions.
+
+The antenna's vertical radiation patterns are defined as the angles at which the sensitivity of the antenna decreases by 3 dB relative to its peak response angle. Gain values are recorded at 90, 60, 45, 30, 15, 7 and 5 degree elevations. The approximate distances involved are 0 to 200 miles at angles from 60 to 90 degrees, 200 to 800 miles at 45 to 60 degrees, 800 to 1600 miles at 30 to 45 degrees (single hop F-layer propagation), 1600 to 2400 miles at 15 to 30 degrees (double hop), 2400 to 7200 miles at 7 to 15 degrees (three to six hops) and grand chordal single hop hemisphere propation at 5 to 7 degree elevation. 
+
+The antennas we will be considering here are modeled above poor to average ground (defined as 5 milliSiemens conductivity and a dielectric constant of 13). This should be reasonably comparable to the concrete floor of a ground floor apartment.
+
+The data... beginning with a horizontal doublet:
+
+Probably the first antenna a new indoor-limited SWL is likely to try is the ubiquitous 25' random wire strung as close to the ceiling as he can get it and running around the perimeter of the room. For this series of readings the antenna was modeled as a centerfed doublet at a height of 8' running 12' in one direction from the feedpoint and 12' from the feedpoint in a direction 90 degrees from the first section (it's mounted in the corner of a 12' by 12' room). The conductor is #22 copper wire. The antenna is too short to be resonant at any of the frequencies involved and too low to the ground to exhibit any horizontal directivity.
+
+At 5 mHz we obtain a gain of 10.92 dBi at 90 degrees (straight up) with 3 db pattern points of 43.8 and 136.2 degrees.
+
+The other angle values are	+9.67 dBi at 60 degrees
+				+8.08 dBi at 45 degrees
+				+5.64 dBi at 30 degrees
+				+1.55 dBi at 15 degrees
+				-3.08 dBi at 7 degrees
+				-5.3 dBi at 5 degrees.
+
+At 10 mHz the gain is 8.33 dBi at 90 degrees with the 3 dB points at 46.1 and 133.9 degrees.
+
+The other angle values are	+6.95 dBi at 60 degrees
+				+5.18 dBi at 45 degrees
+				+2.49 dBi at 30 degrees
+				-2.12 dBi at 15 degrees
+				-7.33 dBi at 7 degrees
+				-9.75 dBi at 5 degrees
+
+At 15 mHz the gain is 7.14 dBi at 90 degrees with 3 dB points at 46.4 and 133.7 degrees.
+
+The other angle values are	+5.75 dBi at 60 degrees
+				+3.95 dBi at 45 degrees
+				+1.19 dBi at 30 degrees
+				-3.64 dBi at 15 degrees
+				-9.16 dBi at 7 degrees
+				-11.7 dBi at 5 degrees
+
+Not bad performance figures at all! This type of antenna has a rightful claim to being an excellent indoor performer especially at the lower frequencies. The gain at high angles is great for close in work... unfortunately it is also great for noise pickup! Since the antenna is mounted so close to the ground it will also be sensitive to near field electrical noise within a 1/4 mile radius. Let's see if a vertical doublet is any better.
+
+The vertical doublet is a single 1/4" diameter copper pipe 7.9' long (just long enough to fit between floor and ceiling). It is also centerfed (I will describe feeder attachment possibilities later).
+
+At 5 mHz we obtain 0.55 dBi at 28 degrees with 3 dB points at 9.3 and 56.9 degrees. Nice strong, fat lobe at our best DX angles. Response at the 90 degree straight up angle is -100 dBi which virtually eliminates close in sky reflected signals and noise.
+
+The other angle values are	-3.16 dBi at 60 degrees
+				-0.49 dBi at 45 degrees
+				+0.54 dBi at 30 degrees
+				-0.57 dBi at 15 degrees
+				-3.88 dBi at 7 degrees
+				-5.82 dBi at 5 degrees
+
+For 10 mHz we have -0.05 dBi at 29 degrees with 3 dB points at 9.9 and 57.1 degrees.
+
+The other angle values are	-3.74 dBi at 60 degrees
+				-1.04 dBi at 45 degrees
+				-0.06 dBi at 30 degrees
+				-1.34 dBi at 15 degrees
+				-4.88 dBi at 7 degrees
+				-6.91 dBi at 5 degrees
+
+At 15 mHz the numbers are -0.23 dBi at 29 degrees with 3 dB points at 10.0 and 56.3 degrees.
+
+The other angle values are	-4.1 dBi at 60 degrees
+				-1.31 dBi at 45 degrees
+				-0.24 dBi at 30 degrees
+				-1.51 dBi at 15 degrees
+				-5.09 dBi at 7 degrees
+				-7.13 dBi at 5 degrees
+
+If my main interest is DX I would choose the vertical doublet over the horizontal doublet. It is very effective at eliminating noise arriving from high angles that can easily obliterate weak signals. At the higher DX angles it will be only 1/2 S-unit below the horizontal antenna while at the lower DX angles it will be up to 1/2 S-unit stronger. But.... it will also be sensitive to electrical noise within its near field. Depending on your location and environment the near field noise can be just as bad or worse than sky reflected noise but at least the sky noise won't be adding to the near field noise. Can we do better?
+
+Let's take a look at the small loop antenna. This is defined for purposes of these tests as a square loop constructed of 0.25" copper tubing mounted vertically with its bottom 1.5' above the floor. It is fed at the center of the bottom conductor.
+
+At 5 mHz we obtain 3.27 dBi at 90 degrees with 3 dB points of 16.9 and 163.2 degrees. We have our close in high angle capability back along with 1 to 2 S-units reduction in sky reflected noise.
+
+The other figures are		+3.05 dBi at 60 degrees
+				+2.68 dBi at 45 degrees
+				+1.92 dBi at 30 degrees
+				-0.17 dBi at 15 degrees
+				-3.72 dBi at 7 degrees
+				-5.69 dBi at 5 degrees
+
+At 10 mHz the gain is 2.94 dBi at 90 degrees with 3 dB points at 19.4 and 160.6 degrees.
+
+The other numbers are		+2.65 dBi at 60 degrees
+				+2.19 dBi at 45 degrees
+				+1.29 dBi at 30 degrees
+				-1.05 dBi at 15 degrees
+				-4.85 dBi at 7 degrees
+				-6.91 dBi at 5 degrees
+
+At 15 mHz we have 2.91 dBi at 90 degrees and 3 dB points at 21 and 159 degrees.
+
+With the other angles at	+2.55 dBi at 60 degrees
+				+2.03 dBi at 45 degrees
+				+1.03 dBi at 30 degrees
+				-1.41 dBi at 15 degrees
+				-5.29 dBi at 7 degrees 
+				-6.21 dBi at 5 degrees
+
+At last we have an antenna that is both small and has very good all angle performance. It's low DX angle performance is even better than the vertical doublet. Rather than being omnidirectional like the horizontal and vertical doublets the loop is bidirectional. It receives best when the desired direction is in line with the plane of the loop and has deep low angle nulls for noise sources or interfering signals perpedicular to the plane of the loop. At higher angles the null is less effective for interference. Most near field noise will be ground conducted and the loop is very effective at nulling these sources. The tradeoff is that you will have to rotate the loop to get maximum benefit from its unique characteristics. It will also be slightly more difficult to construct but not exorbitantly so. It can be build with 4 piecies of 4' by 0.25" copper tube from the plumbing department of your local hardware store and 4 90 degree copper elbows. You can build the loop in the 4' size but you will not derive any significant increase in performance. Cut the tubes to 3' length to make the antenna a more manageable size. If you have the ability to solder the antenna together it will be more rigid and durable as well as slightly lower loss. If you cannot solder the loop just drill holes through the elbows and tubing ends then fasten them together with sheet metal screws. Shine up the copper with some ScotchBrite or 200 grit sandpaper before you assemble it to ensure good contacts. What do you do with the 1' cutoff lengths? Drill holes in them and make flutes! Alternatively you can cut the 4' lengths in half and make your loop with 2' sides at some cost in reduced signal strength.
+
+How to connect the antenna to the receiver. There are several ways to do this. All of the antennas described can be treated as either balanced or unbalanced feed antennas. Your receiver won't care and neither will the antenna. If your receiver does not have an external antenna connector simply connect the rod antenna to the center of the horizontal or vertical doublets or to the center of the bottom conductor of the loop. Make this connection as short and direct as possible.
+
+If your receiver has an external antenna jack use a short length of coaxial cable to connect from the jack to the antenna. For the horizontal doublet connect the shield to one leg of the antenna and the center conductor to the other leg. For the vertical doublet connect the shield to the center of the antenna and the center conductor to a point about 6" to 12" higher. Hose clamps are ideal for this and permit moving the center conductor feed point up or down to find the best spot. The same technique is used for the loop. Connect the shield to the center of the bottom member and the center conductor some 6" to 12" away.
+
+All of these antennas (and your receiver) can benefit from the use of an antenna matching unit. All of the antennas described have very low feedpoint impedances and are highly reactive meaning they won't provide and efficient transfer of energy to your receiver unless some means is made to counteract their reactance and step up their impedances. This does not mean that they won't work as described without an antenna matcher... they will but they will work better with one than without. The type of tuner I would recommend for these antennas is known as the balanced double-L network. You will have to build it because nobody manufactures one. That shouldn't make you shy away because all you need is one variable capacitor (a 365 pF variable from Midnight Science or other crystal set resources is ideal) and two tapped coils plus a "choke" balun. 
+
+Make the coils by winding about 50 turns of #20 or #22 insulated solid core hookup wire on some 1.5" PVC pipe (only the white stuff please.. the other colors are very lossy) or on toilet paper tubes. Make tap points every 5 turns as you wind the coils. They are connected as follows:
+
+One end of coil #1 is connected to the rotor (moving plates) this is usually the frame of the capacitor. The other end will be connected to the antenna. One end of coil #2 is connected to the stator (fixed plates) of the capacitor which is normally a solder tab on either side of the capacitor. The other end of the coil will connect to the antenna. Obtain a 20' length of coax such as RG-58 with appropriate connectors or adapters to match your receiver's antenna connector. Leave a few feet of the coax free as a pigtail to plug into your receiver. Wind all but about 18" of the coax into a coil with about a 5" or 6" diameter. Make this as neat a coil as you can. It should not be just a jumble of loops. At the antenna tuner end of the coax connect the shield to the rotor of the tuning capacitor and the center conductor to the stator of the tuning capacitor. Make jumpers with short pieces of wire having an alligator clip on one end. Connect one of these jumpers to the rotor of the capacitor and the other to the stator. The alligator clip ends will be used to select tap points on your coils. 
+
+Your antenna matching unit is now ready to connect to the antenna. For the the feedline use a piece of 300 ohm twinlead or a couple of pieces of #20 or #22 wire left over from winding the coils. If you use wires space them about an inch apart and try to keep them parallel to each other. Whichever one you use try to keep it as short as possible... just enough to reach the antenna with a little bit of slack. At the tuner end of the feedline connect one lead to the free end of coil #1 and the other lead to the free end of coil #2.
+
+For the horizontal doublet connect one lead of the feedline to one leg of the antenna and the other lead to the remaining leg. For the vertical doublet and the loop mark the center point then attach one lead 6" to 12" away from this point and the other lead 6" to 12" away in the opposite direction. Use hose clamps so you can "optimise" these tap points later.
+
+Turn your receiver on. Set it to the band of interest. Set the capacitor to it's midpoint then adjust the select the tap point on each coil for maximum noise or signal. The tap point should be the same on each coil. Finally, tune the capacitor for maximum noise or signal then sit back and enjoy your antenna. If you want to change bands it only takes a few seconds to reset your tuner. You should not have to make any adjustments within any of the SW broadcast bands. If you notice hand capacitance effects try gluing a plastic peanut butter jar lid onto the knob used for tuning your capacitor. This will decrease any detuning cause by hand capacitance.
+
+A final caveat... don't expect any of these antennas to outperform or even equal the performance of a good outdoor antenna because they won't! Remember the parameters given at the beginning of this article. Don't try to use the gain values quoted here to compare with full size resonant outdoor verticals or dipoles. That's comparing apples to oranges. The figures presented here were intended to display the relative merits of three antenna configurations for use inside a ground floor apartment. A good outside antenna that is properly constructed and fed will typically be 3 to 5 S-units better than any indoor antenna no matter how good the indoor antenna is. By the same token these indoor antennas should show a 3 to 5 S-unit improvement over your radio's rod antenna.
+
+In hopes that you find this article useful.
+
+'Bear' NH7SR  
